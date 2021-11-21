@@ -1,0 +1,19 @@
+{
+  "name": "wichtel-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./webex/main.js",
+    "dev": "nodemon ./webex/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "https": "^1.0.0",
+    "smartsheet": "^2.126.0",
+    "webex": "^1.144.2"
+  }
+}

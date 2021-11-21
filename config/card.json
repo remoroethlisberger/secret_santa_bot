@@ -1,0 +1,152 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "text": "ONE Cisco Switzerland",
+              "weight": "Lighter",
+              "color": "Accent"
+            },
+            {
+              "type": "TextBlock",
+              "weight": "Bolder",
+              "text": " 🤶🎅🎄 Secret Santa Bot 🎄🎅🤶",
+              "wrap": true,
+              "color": "Light",
+              "size": "Large",
+              "spacing": "Small"
+            },
+            {
+              "type": "TextBlock",
+              "text": "Welcome to Cisco Switzerland's Secret Santa Bot! Here is how Secret Santa works: \n Secret Santa is a Western Christmas tradition in which members of a group or community are randomly assigned a person to whom they give a gift.",
+              "wrap": true
+            }
+          ],
+          "width": "stretch"
+        }
+      ]
+    },
+    {
+      "type": "TextBlock",
+      "text": "Step 1",
+      "wrap": true,
+      "weight": "Bolder",
+      "color": "Accent"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Please reply to this message if you want to take part in this activity. Please also let us know in which office you normally work.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Step 2",
+      "wrap": true,
+      "weight": "Bolder",
+      "color": "Accent"
+    },
+    {
+      "type": "TextBlock",
+      "text": "In the week of **November 22nd**, you will receive a message from the bot, telling you to whom and where you will be sending a gift to. Please remember, that the gift's value should not exceed CHF 20! Also I would like to make sure that you do not get anything that can go bad (fresh food etc.), as the gift might not be picked up directly.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Step 3",
+      "wrap": true,
+      "weight": "Bolder",
+      "color": "Accent"
+    },
+    {
+      "type": "TextBlock",
+      "text": "You now have time to buy or make a gift for your Secret Santa. Please make sure to send it to the office that was mentioned together with the person's name (see previous step), and a comment \"Secret Santa\" on the package / mail. The person will then be notified once his gift reaches the office to be able to pick it up.",
+      "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "text": "Step 4",
+      "wrap": true,
+      "weight": "Bolder",
+      "color": "Accent"
+    },
+    {
+      "type": "TextBlock",
+      "text": "You will be notified as well, once your gift reaches the office you work at, and you can then go and pick it up. Let's hope you have received something fun and thoughtful of your Secret Santa from another Cisco colleague.",
+      "wrap": true
+    },
+    {
+      "type": "Container"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Now it's time to decide - do you want to be part of this years Secret Santa?",
+      "wrap": true,
+      "horizontalAlignment": "Center",
+      "fontType": "Default",
+      "size": "Medium",
+      "weight": "Bolder"
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "choices": [
+        {
+          "title": "Yes",
+          "value": "Yes"
+        },
+        {
+          "title": "No",
+          "value": "No"
+        }
+      ],
+      "placeholder": "Placeholder text",
+      "style": "expanded",
+      "id": "participate"
+    },
+    {
+      "type": "TextBlock",
+      "text": "if yes, please let us know which office you would like the gift to be sent to?",
+      "wrap": true
+    },
+    {
+      "type": "Input.ChoiceSet",
+      "choices": [
+        {
+          "title": "Wallisellen",
+          "value": "Wallisellen"
+        },
+        {
+          "title": "Rolle",
+          "value": "Rolle"
+        }
+      ],
+      "placeholder": "Placeholder text",
+      "style": "expanded",
+      "id": "office"
+    },
+    {
+      "type": "TextBlock",
+      "text": "Thanks so much for joining and enjoy bringing someone joy and happiness!",
+      "wrap": true
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Submit",
+          "title": "Confirm"
+        }
+      ],
+      "spacing": "None",
+      "horizontalAlignment": "Right",
+      "id": "submit"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2"
+}
