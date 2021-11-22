@@ -105,10 +105,10 @@ webex["messages"].listen().then(() => {
             MESSAGES.SEND_GIFT_RECEIVER(person, receiver)
           );
         } else {
-          sendNotification(personId, MESSAGES.ERROR_HAS_OCCURED());
+          sendNotification(message.personId, MESSAGES.ERROR_HAS_OCCURED());
         }
       } else {
-        sendNotification(personId, MESSAGES.SEND_NOT_YET_SHUFFLED());
+        sendNotification(message.personId, MESSAGES.SEND_NOT_YET_SHUFFLED());
       }
     } else if (command === "help") {
       sendNotification(message.personId, MESSAGES.HELP_MESSAGE());
